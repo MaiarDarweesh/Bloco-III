@@ -1,0 +1,41 @@
+/*Estilos da pagina index.html:*/
+.text{
+    color: rgb(212, 199, 14);
+    font-size: 30px;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    font-size:xx-large ;
+    font-family: 'Macondo', cursive;
+}
+#idTeste{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(135, 59%, 41%);
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.747);
+    margin: 0%;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 25px;
+}
+
+.center {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.containe {
+    display: flex;
+    flex-flow: row;
+    justify-content:space-around;
+}

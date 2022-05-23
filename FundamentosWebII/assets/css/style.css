@@ -1,11 +1,11 @@
 /*Estilos da pagina index.html:*/
 .text{
     color: rgb(212, 199, 14);
-    font-size: 30px;
+    font-size: 20px;
     width: 300px;
     padding: 50px;
     margin: 20px;
-    font-size:xx-large ;
+    font-size:large ;
     font-family: 'Macondo', cursive;
 }
 #idTeste{
@@ -16,18 +16,13 @@
 nav {
     background-color: rgba(0, 0, 0, 0.747);
     margin: 0%;
-    padding: 20px;
+    padding: 30px;
 }
 ul{
     display: flex;
     list-style: none;
     justify-content: space-around;
 }
-
-p {
-    font-size: 25px;
-}
-
 .center {
     text-align: center;
 }
@@ -37,5 +32,35 @@ a {
 .containe {
     display: flex;
     flex-flow: row;
-    justify-content:space-around;
+    justify-content:center;
+    align-items: center;
+}
+#menu li a:hover {
+    color: rgb(212, 199, 14);
+    font-size: 22px;
+}
+.p-30 {
+    padding: 50px;
+    font-size: 15px;
+}
+.br-50 {
+    border-radius: 50%;
+}
+/*
+width: 300px
+height: 300px
+*/
+
+.tm-social {
+    width: 40px;
+    height: 40px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.rd-Letra {
+    font-size: 15px;
+}
+.justificado {
+    text-align: justify;
 }

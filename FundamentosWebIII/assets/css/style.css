@@ -10,3 +10,16 @@
 .center{
     text-align: center;
 }
+.margemSuperior{
+    margin-top: 160px;
+}
+.teste {
+    opacity: 0.3;
+    background-color: yellow
+}
+.centralizar {
+    justify-content: center;
+}
+hr{
+    border-color: #ffffff; 
+   }
